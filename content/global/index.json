@@ -1,0 +1,41 @@
+{
+  "header": {
+    "icon": {
+      "color": "teal",
+      "style": "float",
+      "name": "lightning"
+    },
+    "color": "default",
+    "nav": [
+      {
+        "href": "",
+        "label": "Home"
+      },
+      {
+        "href": "about",
+        "label": "About"
+      },
+      {
+        "href": "projects",
+        "label": "Work"
+      }
+    ]
+  },
+  "footer": {
+    "color": "default",
+    "social": {
+      "facebook": "",
+      "twitter": "",
+      "instagram": "",
+      "github": "https://www.github.com/jbevis",
+      "email": "mailto:jack.bevis@gmail.com",
+      "linkedin": "https://www.linkedin/in/jack-bevis"
+    }
+  },
+  "theme": {
+    "color": "teal",
+    "font": "lato",
+    "icon": "heroicon",
+    "darkMode": "dark"
+  }
+}
