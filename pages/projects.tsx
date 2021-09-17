@@ -29,7 +29,11 @@ export const getStaticProps = async () => {
             node {
               id
               values
-              data 
+              data {
+                title
+                heroImg
+                summary
+              }
               sys {
                 filename
               }

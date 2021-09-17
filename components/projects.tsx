@@ -33,11 +33,11 @@ export const Projects = ({ data }) => {
               key={project.id}
               className="group block px-8 py-10 mb-8 last:mb-0 bg-gray-50 bg-gradient-to-br from-gray-50 to-gray-100 dark:bg-gray-700 dark:from-gray-800 dark:to-gray-700 rounded-md shadow-sm transition-all duration-150 ease-out hover:shadow-md hover:to-gray-50 dark:hover:to-gray-600"
             >
-              <img
-                className="h-14 w-14 object-cover rounded-full shadow-sm"
-                src={project.heroImg}
-                alt={project.title}
-              />
+              {/* <img
+                className="h-16 shadow-sm"
+                src={project.values.heroImg}
+                alt={project.values.title}
+              /> */}
               <h3
                 className={`text-gray-900 dark:text-white text-3xl font-semibold title-font mb-5 transition-all duration-150 ease-out ${
                   titleColorClasses[theme.color]

@@ -5,7 +5,7 @@ import type { ProjectsDocument } from "../../.tina/__generated__/types";
 import FourOhFour from "../404";
 
 // Use the props returned by get static props
-export default function BlogPostPage(
+export default function ProjectPage(
   props: AsyncReturnType<typeof getStaticProps>["props"]
 ) {
   if (props.data && props.data.getProjectsDocument) {
@@ -22,7 +22,7 @@ export const getStaticProps = async ({ params }) => {
     query: `#graphql
       query ProjectQuery($relativePath: String!) {
         ${layoutQueryFragment}
-        getPostsDocument(relativePath: $relativePath) {
+        getProjectsDocument(relativePath: $relativePath) {
           data {
             title
             heroImg

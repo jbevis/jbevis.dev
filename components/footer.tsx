@@ -152,6 +152,7 @@ export const Footer = ({ data, icon }) => {
               </a>
             )}
           </div>
+          <p>{ '\u00A9' } Jack Bevis | 2021</p>
         </div>
         <div
           className={`absolute h-1 bg-gradient-to-r from-transparent ${
