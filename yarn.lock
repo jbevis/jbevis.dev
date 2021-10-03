@@ -2071,38 +2071,6 @@
     ws "^7.3.1"
     yup "^0.32.9"
 
-"@tinacms/toolkit@0.52.3":
-  version "0.52.3"
-  resolved "https://registry.yarnpkg.com/@tinacms/toolkit/-/toolkit-0.52.3.tgz#bfcaa3e44d8475f681520614ad95b46a90dc4303"
-  integrity sha512-TdC80vK347WWTkHEOlL0l/ZanLz7fyXAmZ5pamIFRU7FROA1D4hiXCVfU6TGR6GJNctJWgKuMXpd+Rq2tQwplg==
-  dependencies:
-    "@sambego/storybook-styles" "^1.0.0"
-    "@types/atob" "^2.1.2"
-    "@types/cors" "^2.8.12"
-    "@types/express" "^4.17.13"
-    "@types/multer" "^1.4.7"
-    "@types/prop-types" "^15.7.4"
-    atob "2.1.2"
-    color-string "^1.5.3"
-    cors "^2.8.5"
-    express "^4.17.1"
-    final-form "^4.20.2"
-    final-form-arrays "^3.0.1"
-    lodash.get "^4.4.2"
-    moment ">=2 <=3"
-    multer "1.4.2"
-    prop-types "15.7.2"
-    react-beautiful-dnd "^11.0.5"
-    react-color "^2.17.3"
-    react-datetime "^2.16.3"
-    react-dismissible "^1.3.0"
-    react-dropzone "10.1.8"
-    react-final-form "^6.3.0"
-    simple-git "1.126.0"
-    tsup "^3.7.0"
-    typescript "^4.3.5"
-    webfontloader "1.6.28"
-
 "@tinacms/toolkit@0.53.0":
   version "0.53.0"
   resolved "https://registry.yarnpkg.com/@tinacms/toolkit/-/toolkit-0.53.0.tgz#2dbea38030d8e7163854ffa57f6a4c005c3f54b6"
@@ -9134,12 +9102,12 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-tinacms-editor@^0.51.7:
-  version "0.51.7"
-  resolved "https://registry.yarnpkg.com/react-tinacms-editor/-/react-tinacms-editor-0.51.7.tgz#7f4dfebbdf2e53cec0fd9383209dfbb70b03b5c9"
-  integrity sha512-orGf29fffZVuGmRBW52LVD7nz+Z/Rg3NqfuTJzXSoUfKs4KJ+7LdunFFJ6fBMLqVXjzv3qQGotwNPC83EMvCtQ==
+react-tinacms-editor@^0.51.8:
+  version "0.51.8"
+  resolved "https://registry.yarnpkg.com/react-tinacms-editor/-/react-tinacms-editor-0.51.8.tgz#afbc13127c75d304a0443adf321d525ecbdd06a9"
+  integrity sha512-V8kEYF3lM23VyOc9+Z2O4OogL96kyFBQo6TYFGyt19VJaVC148+DX193+7DkQwlkR1grikUwuxvYCQEHMYg8sg==
   dependencies:
-    "@tinacms/toolkit" "0.52.3"
+    "@tinacms/toolkit" "0.53.0"
     codemirror "^5.42.2"
     lodash.debounce "^4.0.8"
     lodash.get "^4.4.2"
